@@ -23,5 +23,9 @@
                 </div>
             </div>
         </div>
+
+         <p class="is-size-7">
+            <a style="color:#4a4a4a;" href="http://www.beian.miit.gov.cn" target="_blank">浙ICP备18054026号</a>
+         </p>
     </div>
 </footer>
