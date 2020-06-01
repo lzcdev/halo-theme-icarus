@@ -54,7 +54,7 @@
             </div>
         </nav>
         <div class="level">
-            <a class="level-item button is-link is-rounded" href="${settings.profile_follow_url!'${context!}'}" target="_blank">why</a>
+            <a class="level-item button is-link is-rounded" href="${settings.profile_follow_url!'${blog_url!}'}" target="_blank">关注我</a>
         </div>
         <div class="level is-mobile">
             <#if settings.social_github?? && settings.social_github!=''>
@@ -92,7 +92,7 @@
                     <i class="fab fa-telegram"></i>
                 </a>
             </#if>
-            <a class="level-item button is-white is-marginless" target="_blank" title="RSS" href="${context!}/atom.xml">
+            <a class="level-item button is-white is-marginless" target="_blank" title="RSS" href="${atom_url!}">
                 <i class="fas fa-rss"></i>
             </a>
         </div>
